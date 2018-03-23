@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GSPaintWgt</class>
+ <widget class="QWidget" name="GSPaintWgt">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>722</width>
+    <height>699</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(109, 109, 110);
+border: 1px solid #6D6D6E;
+background: #343434;</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="PaintView" name="graphicsView"/>
+      </item>
+      <item>
+       <widget class="QWidget" name="toolbarWgt" native="true">
+        <layout class="QGridLayout" name="gridLayout">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <item row="0" column="0">
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QPushButton" name="pbt_pen">
+             <property name="minimumSize">
+              <size>
+               <width>47</width>
+               <height>47</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>47</width>
+               <height>47</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="qrc.qrc">
+               <normaloff>:/qrc/Resources/ic_sidebar_pencil.png</normaloff>:/qrc/Resources/ic_sidebar_pencil.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pbt_text">
+             <property name="minimumSize">
+              <size>
+               <width>47</width>
+               <height>47</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>47</width>
+               <height>47</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="qrc.qrc">
+               <normaloff>:/qrc/Resources/ic_sidebar_text.png</normaloff>:/qrc/Resources/ic_sidebar_text.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pbt_Arrow">
+             <property name="minimumSize">
+              <size>
+               <width>47</width>
+               <height>47</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>47</width>
+               <height>47</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="qrc.qrc">
+               <normaloff>:/qrc/Resources/ic_sidebar_arrow.png</normaloff>:/qrc/Resources/ic_sidebar_arrow.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pbt_line">
+             <property name="minimumSize">
+              <size>
+               <width>47</width>
+               <height>47</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>47</width>
+               <height>47</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="qrc.qrc">
+               <normaloff>:/qrc/Resources/ic_drawing_beeline.png</normaloff>:/qrc/Resources/ic_drawing_beeline.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pbt_rect">
+             <property name="minimumSize">
+              <size>
+               <width>47</width>
+               <height>47</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>47</width>
+               <height>47</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="qrc.qrc">
+               <normaloff>:/qrc/Resources/ic_drawing_square.png</normaloff>:/qrc/Resources/ic_drawing_square.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pbt_triangle">
+             <property name="minimumSize">
+              <size>
+               <width>47</width>
+               <height>47</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>47</width>
+               <height>47</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="qrc.qrc">
+               <normaloff>:/qrc/Resources/ic_drawing_triangle.png</normaloff>:/qrc/Resources/ic_drawing_triangle.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pbt_circle">
+             <property name="minimumSize">
+              <size>
+               <width>47</width>
+               <height>47</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>47</width>
+               <height>47</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="qrc.qrc">
+               <normaloff>:/qrc/Resources/ic_drawing_round.png</normaloff>:/qrc/Resources/ic_drawing_round.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pbt_picture">
+             <property name="minimumSize">
+              <size>
+               <width>47</width>
+               <height>47</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>47</width>
+               <height>47</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="qrc.qrc">
+               <normaloff>:/qrc/Resources/ic_sidebar_image.png</normaloff>:/qrc/Resources/ic_sidebar_image.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pbt_red">
+             <property name="minimumSize">
+              <size>
+               <width>47</width>
+               <height>47</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>47</width>
+               <height>47</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="qrc.qrc">
+               <normaloff>:/qrc/Resources/ic_sidebar_color.png</normaloff>:/qrc/Resources/ic_sidebar_color.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pbt_green">
+             <property name="minimumSize">
+              <size>
+               <width>47</width>
+               <height>47</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>47</width>
+               <height>47</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="qrc.qrc">
+               <normaloff>:/qrc/Resources/green Selected.png</normaloff>:/qrc/Resources/green Selected.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pbt_black">
+             <property name="minimumSize">
+              <size>
+               <width>47</width>
+               <height>47</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>47</width>
+               <height>47</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="qrc.qrc">
+               <normaloff>:/qrc/Resources/black Selected.png</normaloff>:/qrc/Resources/black Selected.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pbt_select">
+             <property name="minimumSize">
+              <size>
+               <width>47</width>
+               <height>47</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>47</width>
+               <height>47</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="qrc.qrc">
+               <normaloff>:/qrc/Resources/Frame selection.png</normaloff>:/qrc/Resources/Frame selection.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pbt_Rubber">
+             <property name="minimumSize">
+              <size>
+               <width>47</width>
+               <height>47</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="qrc.qrc">
+               <normaloff>:/qrc/Resources/rubber.png</normaloff>:/qrc/Resources/rubber.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PaintView</class>
+   <extends>QGraphicsView</extends>
+   <header>./GradeGraphics/PaintView.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="qrc.qrc"/>
+ </resources>
+ <connections/>
+</ui>

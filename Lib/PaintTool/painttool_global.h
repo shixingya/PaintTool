@@ -1,0 +1,12 @@
+#ifndef PAINTTOOL_GLOBAL_H
+#define PAINTTOOL_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(PAINTTOOL_LIBRARY)
+#  define PAINTTOOLSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define PAINTTOOLSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // PAINTTOOL_GLOBAL_H

@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/qrc">
+        <file>Resources/green Selected.png</file>
+        <file>Resources/green.png</file>
+        <file>Resources/ic_drawing_beeline.png</file>
+        <file>Resources/ic_drawing_round.png</file>
+        <file>Resources/ic_drawing_square.png</file>
+        <file>Resources/ic_drawing_triangle.png</file>
+        <file>Resources/ic_load.gif</file>
+        <file>Resources/ic_sidebar_arrow.png</file>
+        <file>Resources/ic_sidebar_checked.png</file>
+        <file>Resources/ic_sidebar_color.png</file>
+        <file>Resources/ic_sidebar_image.png</file>
+        <file>Resources/ic_sidebar_pencil.png</file>
+        <file>Resources/ic_sidebar_shape.png</file>
+        <file>Resources/ic_sidebar_text.png</file>
+        <file>Resources/ic_turn left.png</file>
+        <file>Resources/ic_turn right.png</file>
+        <file>Resources/pencilTool.png</file>
+        <file>Resources/black Selected.png</file>
+        <file>Resources/Frame selection.png</file>
+        <file>Resources/rubber.png</file>
+        <file>Resources/rubberArrow.png</file>
+    </qresource>
+</RCC>
