@@ -1,0 +1,10 @@
+Lib/build-PaintTool-Desktop_Qt_5_10_1_MSVC2017_64bit-Debug/
+build-HaoKe-Desktop_Qt_5_10_1_MSVC2017_64bit-Debug/
+build-Painter-Desktop_Qt_5_10_1_MSVC2017_64bit-Debug/
+test/debug/
+Lib/PaintTool/PaintTool.pro.user
+test/.qmake.stash
+test/Makefile
+test/Makefile.Debug
+test/Makefile.Release
+test/Painter.pro.user

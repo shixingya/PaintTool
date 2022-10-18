@@ -1,4 +1,4 @@
-#include "mainwindow.h"
+﻿#include "mainwindow.h"
 #include <QApplication>
 int main(int argc, char *argv[])
 {
@@ -6,7 +6,7 @@ int main(int argc, char *argv[])
     MainWindow w;
     w.resize(900,1000);
 
-    w.move(2000,0);
+    w.move(0,0);
     w.show();
 
     return a.exec();

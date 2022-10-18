@@ -8,7 +8,7 @@ QT       += core gui multimedia winextras
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = HaoKe
+TARGET = Painter
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -32,9 +32,9 @@ HEADERS += \
 
 FORMS += \
     mainwindow.ui
-INCLUDEPATH +=E:/bjhl/GradeSystem/Common/RecordTool
-INCLUDEPATH +=E:/bjhl/run/Common/PaintTool
-#LIBS +=-L E:/bjhl/run/Common/RecordTool/debug/ -l RecordTool
 
-LIBS +=-L E:/bjhl/run/Common/PaintTool/debug/ -l PaintTool
-LIBS +=E:/bjhl/run/Common/RecordTool/debug/libRecord0Tool.a
+
+LIBS += -L$$PWD/../Lib/build-PaintTool-Desktop_Qt_5_10_1_MSVC2017_64bit-Debug/debug/ -lPaintTool
+#LIBS += -L"F:\\truck\\PaintTool\\Lib\\build-PaintTool-Desktop_Qt_5_10_1_MSVC2017_64bit-Debug\\debug" -lPaintTool
+INCLUDEPATH += $$PWD/../Lib/PaintTool
+DEPENDPATH += $$PWD/../Lib/PaintTool

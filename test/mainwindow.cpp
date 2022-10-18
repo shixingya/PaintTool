@@ -1,7 +1,7 @@
-#include "mainwindow.h"
+﻿#include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include "../RecordTool/SoundRecordWgt.h"
-#include "GSPaintWgt.h"
+#include "../Lib/PaintTool/GSPaintWgt.h"
+//#include "GSPaintWgt.h"
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
